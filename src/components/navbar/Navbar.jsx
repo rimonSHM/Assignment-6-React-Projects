@@ -12,5 +12,4 @@ export default function Navbar({ cartCount = 0, activeTab, onTabChange }) {
           <div className="text-4xl font-bold text-purple-600">DigiTools</div>
         </div>
 
-  
-
+    
