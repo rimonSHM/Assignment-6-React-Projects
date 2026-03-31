@@ -1,0 +1,90 @@
+export const products = [
+  {
+    id: 1,
+    name: "AI Writing Pro",
+    description: "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    price: 29,
+    period: "Monthly",
+    tag: "Best Seller",
+    tagType: "best-seller",
+    features: ["Unlimited AI generations", "50+ writing templates", "Grammar checker", "Commercial license"],
+    icon: "✍️"
+  },
+  {
+    id: 2,
+    name: "Design Templates Pack",
+    description: "2000+ premium templates for social media, presentations, and marketing materials.",
+    price: 49,
+    period: "One-time",
+    tag: "Popular",
+    tagType: "popular",
+    features: ["2000+ templates", "Monthly updates", "Commercial license", "Figma & PSD files"],
+    icon: "🎨"
+  },
+  {
+    id: 3,
+    name: "Premium Stock Assets",
+    description: "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    price: 19,
+    period: "Monthly",
+    tag: "New",
+    tagType: "new",
+    features: ["10M+ assets", "Commercial use", "No attribution required", "High resolution"],
+    icon: "📸"
+  },
+  {
+    id: 4,
+    name: "Automation Toolkit",
+    description: "Automate repetitive tasks and streamline your workflow with powerful tools.",
+    price: 79,
+    period: "Monthly",
+    tag: "Best Seller",
+    tagType: "best-seller",
+    features: ["50+ automations", "API access", "Custom workflows", "Zapier integration"],
+    icon: "⚙️"
+  },
+  {
+    id: 5,
+    name: "Resume Builder Pro",
+    description: "Create professional resumes and cover letters that land interviews.",
+    price: 15,
+    period: "One-time",
+    tag: "Popular",
+    tagType: "popular",
+    features: ["100+ templates", "ATS optimization", "Export to PDF", "Analytics dashboard"],
+    icon: "📄"
+  },
+  {
+    id: 6,
+    name: "Social Media Content Kit",
+    description: "Complete toolkit for creating engaging social media content across all platforms.",
+    price: 39,
+    period: "Monthly",
+    tag: "New",
+    tagType: "new",
+    features: ["5000+ assets", "Scheduler included", "Caption generator", "Hashtag research"],
+    icon: "📱"
+  },
+  {
+    id: 7,
+    name: "Video Editing Templates",
+    description: "Professional After Effects & Premiere Pro templates for fast video production.",
+    price: 59,
+    period: "One-time",
+    tag: "Popular",
+    tagType: "popular",
+    features: ["150+ templates", "4K resolution", "Easy customization", "Royalty-free music"],
+    icon: "🎥"
+  },
+  {
+    id: 8,
+    name: "Notion Productivity System",
+    description: "All-in-one second brain and productivity dashboard for creators and teams.",
+    price: 25,
+    period: "One-time",
+    tag: "Best Seller",
+    tagType: "best-seller",
+    features: ["Task management", "Goal tracking", "Knowledge base", "Team collaboration"],
+    icon: "📋"
+  }
+];
