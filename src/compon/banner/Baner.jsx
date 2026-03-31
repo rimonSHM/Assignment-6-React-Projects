@@ -46,7 +46,22 @@ const Banner = () => {
             </button>
           </div>
         </div>
+         {/* Right Side: Image/Visual */}
+        <div className="flex-1 w-full flex justify-center lg:justify-end">
+          <div className="relative">
+            {/* Soft Glow Background for image */}
+            <div className="bsolute -inset-4 bg-purple-100 rounded-full blur-3xl opacity-50"></div>
+            
+            <img 
+              src={dollerImg} 
+              alt="Digital Workflow Visualization" 
+              className=""
+            />
+          </div>
+        </div>
 
+      </div>
+    </div>
        
   );
 };

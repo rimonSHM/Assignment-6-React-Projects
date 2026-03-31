@@ -28,7 +28,7 @@ const PricingSection = () => {
     },
   ];
 
-  // সবার জন্য কমন বেগুনি রঙ
+ 
   const brandColor = '#7F27FF'; 
 
   return (
@@ -42,9 +42,9 @@ const PricingSection = () => {
             <div 
               key={index}
               className={`relative p-8 rounded-2xl border transition-all duration-300 ease-in-out flex flex-col 
-                /* হোভার এফেক্ট সব কার্ডের জন্য */
+               
                 hover:-translate-y-3 hover:shadow-2xl hover:border-[#7F27FF]/50
-                /* ডিফল্ট স্টাইল এবং কন্ডিশনাল স্টাইল */
+                
                 ${plan.isPopular 
                   ? 'bg-[#7F27FF] text-white border-[#7F27FF] shadow-lg scale-105 z-10' 
                   : 'bg-gray-50 border-gray-200 text-gray-900 hover:bg-white'
