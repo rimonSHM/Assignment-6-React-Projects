@@ -1,5 +1,5 @@
 
-
+// This is the Navbar component for the DigiTools landing page.
 import { ShoppingCart } from 'lucide-react';
 
 export default function Navbar({ cartCount = 0, activeTab, onTabChange }) {
