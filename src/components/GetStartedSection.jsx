@@ -1,4 +1,4 @@
-
+// This is the GetStartedSection component for the DigiTools landing page.
 import React from 'react';
 import { UserPlus, ShoppingBag, Rocket } from 'lucide-react';
 
@@ -38,7 +38,7 @@ const GetStartedSection = () => {
           </p>
         </div>
 
-        {/* Steps Grid */}
+        
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {steps.map((step, index) => (
             <div 
